@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@+id/mInbox"
-        android:icon="@drawable/baseline_inbox"
-        android:title="Inbox" />
-    <item
-        android:id="@+id/mOutbox"
-        android:icon="@drawable/baseline_outbox"
-        android:title="Outbox" />
-    <item
-        android:id="@+id/mFavorite"
-        android:icon="@drawable/baseline_favorite"
-        android:title="Favorite" />
-    <item
-        android:id="@+id/mTrash"
-        android:icon="@drawable/baseline_delete"
-        android:title="Trash" />
-    <item
-        android:id="@+id/mFriends"
-        android:icon="@drawable/baseline_folder"
-        android:title="Friends" />
-    <item
-        android:id="@+id/mVol"
-        android:icon="@drawable/baseline_folder"
-        android:title="Volunteering" />
-    <item
-        android:id="@+id/mWork"
-        android:icon="@drawable/baseline_folder"
-        android:title="Work" />
+    <group android:id="@+id/gmPref">
+
+        <item
+            android:id="@+id/mInbox"
+            android:icon="@drawable/baseline_inbox"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/mOutbox"
+            android:icon="@drawable/baseline_outbox"
+            android:title="Outbox" />
+        <item
+            android:id="@+id/mFavorite"
+            android:icon="@drawable/baseline_favorite"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/mTrash"
+            android:icon="@drawable/baseline_delete"
+            android:title="Trash" />
+    </group>
+    <group android:id="@+id/gmArq">
+        <item
+            android:id="@+id/mFriends"
+            android:icon="@drawable/baseline_folder"
+            android:title="Friends" />
+        <item
+            android:id="@+id/mVol"
+            android:icon="@drawable/baseline_folder"
+            android:title="Volunteering" />
+        <item
+            android:id="@+id/mWork"
+            android:icon="@drawable/baseline_folder"
+            android:title="Work" />
+    </group>
+
 
 </menu>
