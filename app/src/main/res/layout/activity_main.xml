@@ -5,11 +5,21 @@
     android:id="@+id/idDrawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    tools:openDrawer="end">
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:menu="@menu/menu_drawer"/>
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_drawer"
+        app:menu="@menu/menu_drawer" />
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:navigationIcon="@drawable/baseline_menu"
+        android:id="@+id/idToolbar"
+        />
 
 </androidx.drawerlayout.widget.DrawerLayout>
